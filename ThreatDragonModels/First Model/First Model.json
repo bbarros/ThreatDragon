@@ -10,7 +10,88 @@
       {
         "title": "First Diagram",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 27,
+                "y": 29
+              },
+              "angle": 0,
+              "id": "2d0d4c36-d03a-46db-80b1-0a1c774d27f9",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "My Actor"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 29,
+                "y": 162
+              },
+              "target": {
+                "x": 552,
+                "y": 166
+              },
+              "vertices": [
+                {
+                  "x": 112,
+                  "y": 165
+                }
+              ],
+              "id": "dba0e797-8124-41ae-9e63-98dcc5da68f3",
+              "z": 2,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 202,
+                "y": 315
+              },
+              "angle": 0,
+              "id": "b9bbe1cd-b7a0-4166-b5c8-efc20ab006cd",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ],
     "reviewer": "Bruno Reviewer"
