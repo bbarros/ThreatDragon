@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "First Model",
+    "owner": "Bruno Owner",
+    "description": "This is my first threat model created with Threat Dragon."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "First Diagram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Bruno Reviewer"
+  }
+}
